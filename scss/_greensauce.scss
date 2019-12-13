@@ -162,6 +162,13 @@
     .grid {
       .container1 {
         padding: 128px 25.7%;
+        position: relative;
+        .bow {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 20%;
+        }
         .h3-dark {
           margin-bottom: 16px;
         }
