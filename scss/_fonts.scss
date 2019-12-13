@@ -793,3 +793,21 @@
     color:#00cec9;
     font-weight:bold;
   }
+  .redbold {
+    color: #ff7675;
+    font-weight:bold;
+  }
+  @media screen and (max-width:500px) {
+    .h1-dark {
+      font-size:36px;
+      line-height:40.5px !important;
+    }
+    .greentext {
+      font-size:18px;
+      line-height:27px;
+    }
+    .redtext {
+      font-size:18px;
+      line-height:27px;
+    }
+  }

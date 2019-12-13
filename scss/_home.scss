@@ -31,7 +31,12 @@
                 overflow:hidden;
                 z-index: 1;
                 .ay {
-                    position: relative;
+                    position: absolute;
+                    top:0;
+                    a {
+                        display:block;
+                        z-index:-1
+                    }
                 }
                /* iframe {
                     top: -22%;
@@ -48,6 +53,7 @@
                 svg {
                     position: absolute;
                     display:none;
+                    z-index: -1;
                     top:0;
                     transform:translate3d(0px, 0px, 0px) scale(4) !important;
                 }
@@ -60,7 +66,12 @@
             z-index: 1;
                 overflow:hidden;
                 .ay {
-                    position: relative;
+                    position: absolute;
+                    top:0;
+                    a {
+                        display:block;
+                        z-index:-1
+                    }
                 }
                 .grid {
                     z-index:1;

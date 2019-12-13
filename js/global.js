@@ -12,14 +12,8 @@ var redanimate = bodymovin.loadAnimation({
     autoplay: true,
     path: redPath
 });
-$('div#greenanim .ay').hover(function() {
+$('div#greenanim a').hover(function() {
     $('div#greenanim svg').show();
-});
-$('div#greenanim .ay').click(function() {
-    window.location = './greensauce.html';
-});
-$('div#redanim .ay').click(function() {
-    window.location = './redsauce.html';
 });
 
 $('div#greenanim .ay').mouseleave(function() {
@@ -38,3 +32,51 @@ window.addEventListener('DOMContentLoaded', function() {
     redanimate.setSpeed('0.2');
     greenanimate.setSpeed('0.2');
 });
+// // Load Green bottle animation
+
+// $( window ).on( "load", function() {
+        
+//     var loadingBar1 = document.getElementById("loadingBar1");
+//     var loadingContent1 = document.getElementById("loadingContent1");
+//     var options = {
+//         distID:  '1658',
+//         solution3DName: 'green-true-mild-sauce',
+//         projectName: 'hot-sauce-bottles',
+//       solution3DID:  '652',
+//       containerID: 'green-sauce',
+//       onLoadingChanged: function(loading) {
+//         loadingBar1.style.width = loading.progress + "%";
+//       }
+//     };
+//     Unlimited3D.init(options, {},function(error, status){
+//         loadingContent1.style.display = "none";
+//         if (error || !status) {
+//             console.log(error);
+//             return;
+//         }
+//     });
+// });
+// // Load Red bottle animation 
+
+// $( window ).on( "load", function() {
+        
+//     var loadingBar = document.getElementById("loadingBar2");
+//     var loadingContent = document.getElementById("loadingContent2");
+//     var options = {
+//         distID:  '1659',
+//         solution3DName: 'red-true-mild-sauce-v2',
+//         projectName: 'hot-sauce-bottles',
+//       solution3DID:  '674',
+//       containerID: 'red-sauce',
+//       onLoadingChanged: function(loading) {
+//         loadingBar.style.width = loading.progress + "%";
+//       }
+//     };
+//     Unlimited3D.init(options, {},function(error, status){
+//         loadingContent.style.display = "none";
+//         if (error || !status) {
+//             console.log(error);
+//             return;
+//         }
+//     });
+// });
