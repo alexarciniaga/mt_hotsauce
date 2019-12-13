@@ -798,9 +798,13 @@
     color: #ff7675;
     font-weight:bold;
   }
-  @media screen and (max-width:500px) {
+  @media screen and (max-width:991px) {
     .h1-dark {
       font-size:36px;
       line-height:40.5px !important;
+    }
+    .mega-dark-center {
+      font-size:40.5px;
+      line-height:42.5px;
     }
   }
