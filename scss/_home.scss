@@ -23,6 +23,9 @@
             grid-template-rows: calc(100vh - 273px);
             perspective: calc(100vh - 203px);
             z-index: 1;
+            .container1,.container2 {
+                min-height:464px
+            }
             .container1 {
                 background-color:#00cec9;
                 transform: rotatey(15deg);
@@ -30,13 +33,6 @@
                 position: relative;
                 overflow:hidden;
                 z-index: 1;
-                img {
-                    position: absolute;
-                    width:24px;
-                    height:24px;
-                    top:18%;
-                    left:57%
-                }
                 .ay {
                     position: absolute;
                     top:0;
@@ -45,17 +41,9 @@
                         z-index:-1
                     }
                 }
-               /* iframe {
-                    top: -22%;
-                    margin: 0;
-                    right:-2.8%;
-                    width: 100%;
-                    position: absolute;
-                    height: 150% !important;
-                    border: none;
-                    &:active {
-                        pointer-events: none;
-                    }*/
+               iframe {
+                   position: absolute;
+                   left:0;
                 }
                 svg {
                     position: absolute;
@@ -72,13 +60,6 @@
                 padding-left:10px;
             z-index: 1;
                 overflow:hidden;
-                img {
-                    position: absolute;
-                    width:24px;
-                    height:24px;
-                    top:15%;
-                    right:49%;
-                }
                 .ay {
                     position: absolute;
                     top:0;
@@ -116,10 +97,7 @@
                         align-content: center; 
                         text-align:center;
                         .redbutton {
-                            margin:48px 0
-                        }
-                        .bluebutton {
-                            margin-bottom:24px;
+                            margin:24px 0
                         }
                         .sub1 {
                             .h3-accent-center {
@@ -165,4 +143,5 @@
             }
         }
     }
+}
 }

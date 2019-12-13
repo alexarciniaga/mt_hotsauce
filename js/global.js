@@ -12,19 +12,19 @@ var redanimate = bodymovin.loadAnimation({
     autoplay: true,
     path: redPath
 });
-$('div#greenanim a').hover(function() {
+$('div#greenanim').hover(function() {
     $('div#greenanim svg').show();
 });
 
-$('div#greenanim .ay').mouseleave(function() {
+$('div#greenanim').mouseleave(function() {
     $('div#greenanim svg').hide();
 });
 
-$('div#redanim .ay').hover(function() {
+$('div#redanim').hover(function() {
     $('div#redanim svg').show();
 });
 
-$('div#redanim .ay').mouseleave(function() {
+$('div#redanim').mouseleave(function() {
     $('div#redanim svg').hide();
 });
 
