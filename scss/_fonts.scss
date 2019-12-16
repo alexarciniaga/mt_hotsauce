@@ -163,11 +163,12 @@
 
 .h2-dark {
   font-family: "Montserrat", sans-serif;
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 900;
   line-height: 34px;
-  letter-spacing: 1px;
+  letter-spacing: 0.78px;
   color: #191919;
+  margin-bottom:24px;
 }
 
 .h3-dark-center {
@@ -800,6 +801,11 @@
   .h1-dark {
     font-size: 36px;
     line-height: 40.5px !important;
+  }
+  .h2-dark {
+    font-size:21px;
+    line-height: 24px;
+    letter-spacing: 0.58px;
   }
   .mega-dark-center {
     font-size: 40.5px;
