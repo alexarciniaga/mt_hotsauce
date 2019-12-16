@@ -10,6 +10,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,900&display=swap" rel="stylesheet">
+        <script src="./js/svg-inject.min.js"></script>
         <link rel="stylesheet" href="./style.css">
     </head>
     <body id="home">
@@ -50,8 +51,8 @@
                         <div class="sub1">
                             <div class="h3-accent-center">Feeling Saucy?</div>
                             <div class="p-white-center">Pick a sauce to discover some festive ideas on how to spice up your holiday season.</div>
-                            <a href="./redsauce.html"><img class="redbutton" src="./assets/svgs/button-solid-red.svg" /></a>
-                            <a href="./greensauce.html"><img class="bluebutton" src="./assets/svgs/button-solid-blue.svg" /></a>
+                            <a class="redcontainer" href="./redsauce.html"><img class="redbutton" onload="SVGInject(this)" src="./assets/svgs/button-solid-red.svg" /></a>
+                            <a class="greencontainer" href="./greensauce.html"><img class="bluebutton" onload="SVGInject(this)" src="./assets/svgs/button-solid-blue.svg" /></a>
                         </div>
                     </div>
                 </div>

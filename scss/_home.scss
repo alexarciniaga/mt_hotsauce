@@ -96,6 +96,26 @@
             grid-template-rows: max-content;
             align-content: center;
             text-align: center;
+            .redcontainer {
+                &:hover {
+                    #container--inject-1 {
+                        fill:#663131;
+                    }
+                    path {
+                        fill:#fff
+                    }
+                }
+            }
+            .greencontainer {
+                &:hover {
+                    #container--inject-2 {
+                        fill:#006663;
+                    }
+                    path {
+                        fill:#fff
+                    }
+                }
+            }
             .redbutton {
               margin: 24px 0;
             }
