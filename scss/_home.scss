@@ -9,6 +9,10 @@
   .fullwidth {
     width: 100%;
   }
+  canvas {
+      width: 100% !important;
+      height: auto !important;
+  }
   #section1 {
     background-color: #f4f4f4;
     .grid {
