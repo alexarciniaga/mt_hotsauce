@@ -158,6 +158,7 @@
       #section2 {
         .grid {
           grid-template-rows: 1fr !important;
+          grid-template-columns:1fr 1fr !important;
         }
       }
       #section1 {
