@@ -119,6 +119,7 @@
       #section2 {
         .grid {
           grid-template-rows: min-content 360px !important;
+          grid-template-columns: 1fr 1fr !important;
         }
       }
       .container1,
@@ -158,10 +159,8 @@
       #section2 {
         .grid {
           grid-template-rows: 1fr !important;
+          grid-template-columns:1fr 1fr !important;
         }
-      }
-      iframe {
-          width:50% !important;
       }
       #section1 {
         .mega-dark-center {
@@ -175,15 +174,5 @@
   @media screen and (max-width:991px) {
         overflow: auto;
         background-color: #fff;
-  }
-  canvas {
-      width: 50% !important;
-      height: auto !important;
-  }
-  .aymobile {
-      width:50% !important;
-  }
-  svg {
-      width:50% !important;
   }
 }
