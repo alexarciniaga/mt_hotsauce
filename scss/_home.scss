@@ -49,6 +49,7 @@
         iframe {
           position: absolute;
           right: 60px;
+          transform:scale(1.75)
         }
         svg {
           position: absolute;
@@ -71,6 +72,7 @@
         iframe {
           position: absolute;
           left: 60px;
+          transform:scale(1.75)
         }
         .grid {
           z-index: 1;
@@ -188,10 +190,15 @@
         }
       }
       #section1 {
-        .mega-dark-center {
-          font-size: 40.5px;
-          text-transform: uppercase;
-          line-height: 42.5px;
+        .grid {
+          .container1 {
+            .mega-dark-center {
+              font-size: 40.5px;
+              text-transform: uppercase;
+              line-height: 42.5px;
+            }
+
+          }
         }
       }
     }
@@ -199,5 +206,11 @@
   @media screen and (max-width: 991px) {
     overflow: auto;
     background-color: #fff;
+    .mega-dark-center {
+      margin-bottom:0 !important;
+    }
+    .p-dark-center {
+      display:none
+    }
   }
 }
