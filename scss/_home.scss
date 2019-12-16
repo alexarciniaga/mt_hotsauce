@@ -158,8 +158,10 @@
       #section2 {
         .grid {
           grid-template-rows: 1fr !important;
-          grid-template-columns:1fr 1fr !important;
         }
+      }
+      iframe {
+          width:50% !important;
       }
       #section1 {
         .mega-dark-center {
