@@ -9,10 +9,6 @@
   .fullwidth {
     width: 100%;
   }
-  canvas {
-      width: 100% !important;
-      height: auto !important;
-  }
   #section1 {
     background-color: #f4f4f4;
     .grid {
@@ -176,5 +172,9 @@
   @media screen and (max-width:991px) {
         overflow: auto;
         background-color: #fff;
+  }
+  canvas {
+      width: 50% !important;
+      height: auto !important;
   }
 }
